@@ -7,7 +7,7 @@ public class FrontControllerPatternDemo {
 		FrontController frontController=new FrontController();
 		frontController.dispatchRequest("home");
 		frontController.dispatchRequest("student");
-		
+		System.out.println("tested successfully");
 	}
 
 }
